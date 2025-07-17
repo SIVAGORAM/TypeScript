@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                         // Use modern JavaScript features
+    "module": "commonjs",                       // Compatible with ts-node and Code Runner
+    "strict": true,                             // Enable all strict type-checking options
+    "esModuleInterop": true,                    // Allow default imports from CommonJS modules
+    "forceConsistentCasingInFileNames": true,   // Enforce consistent casing in imports
+    "skipLibCheck": true                        // Skip type checking for declaration files
+  },
+  "code-runner": {
+    "executorMap": {
+      "typescript": "ts-node"
+    },
+    "runInTerminal": true,
+    "clearPreviousOutput": true
+  }
+}
